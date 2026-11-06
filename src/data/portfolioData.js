@@ -404,28 +404,24 @@ export const portfolioData = {
       degree: "Master of Computer Applications (MCA)",
       institution: "Birla Institute of Technology (BIT) Mesra",
       period: "2023 – 2025",
-      score: "CGPA: 7.21 / 10",
       description: "Advanced computational systems, distributed architectures, Artificial Intelligence, machine learning algorithms, and advanced database engineering."
     },
     {
       degree: "Bachelor of Computer Applications (BCA)",
       institution: "Birla Institute of Technology (BIT) Mesra",
       period: "2020 – 2023",
-      score: "79.0%",
       description: "Foundational computer science, algorithms, software engineering principles, object-oriented programming, and web development."
     },
     {
       degree: "Higher Secondary (12th CBSE)",
       institution: "Lady KC Roy Memorial Senior Secondary School",
       period: "2019 – 2020",
-      score: "61.2%",
       description: "Mathematics, Physics, Chemistry, and Computer Science."
     },
     {
       degree: "Secondary School (10th CBSE)",
       institution: "Lady KC Roy Memorial Senior Secondary School",
       period: "2017 – 2018",
-      score: "69.5%",
       description: "Foundational secondary education."
     }
   ]

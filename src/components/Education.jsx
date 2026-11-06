@@ -35,7 +35,7 @@ export default function Education() {
                   isCollege ? 'border-white/15 bg-gradient-to-br from-[#0c1220] to-[#070a12]' : 'border-white/5 opacity-90'
                 }`}
               >
-                <div className="flex items-start justify-between gap-3 mb-3">
+                <div className="mb-3">
                   <div>
                     <span className="text-xs font-mono text-cyan-400 font-semibold">
                       {item.period}
@@ -44,10 +44,6 @@ export default function Education() {
                       {item.degree}
                     </h3>
                   </div>
-
-                  <span className="px-3 py-1 rounded-full text-xs font-mono font-bold bg-cyan-950 text-cyan-300 border border-cyan-500/30 shrink-0">
-                    {item.score}
-                  </span>
                 </div>
 
                 <div className="text-sm font-medium text-slate-300 mb-3 flex items-center gap-2">

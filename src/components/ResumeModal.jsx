@@ -189,10 +189,7 @@ export default function ResumeModal({ isOpen, onClose }) {
                 <div key={eidx} className="p-3 rounded-lg bg-white/5 border border-white/5">
                   <div className="font-bold text-white text-xs">{edu.degree}</div>
                   <div className="text-xs text-slate-300">{edu.institution}</div>
-                  <div className="flex justify-between text-xs font-mono text-cyan-300 mt-1">
-                    <span>{edu.period}</span>
-                    <span>{edu.score}</span>
-                  </div>
+                  <div className="text-xs font-mono text-cyan-300 mt-1">{edu.period}</div>
                 </div>
               ))}
             </div>
